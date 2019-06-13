@@ -7,9 +7,13 @@
 //
 
 #include <iostream>
-
+using namespace std;
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    int i;
+    for(i=0;i<10;i++){
+        if(i%2==0){
+            cout<<"aha"<<i<<"is a double count"<<endl;
+        }
+    }
     return 0;
 }
