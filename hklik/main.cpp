@@ -14,6 +14,7 @@ int main(int argc, const char * argv[]) {
         if(i%2==0){
             cout<<"aha"<<i<<"is a double count"<<endl;
         }
+        if(i==4) return 0;
     }
     return 0;
 }
