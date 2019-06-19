@@ -7,17 +7,14 @@
 //
 
 #include <iostream>
+#include<fstream>
 using namespace std;
-int main(int argc, const char * argv[]) {
-    int i;
-    for(i=0;i<10;i++){
-        if(i%2==0){
-            cout<<"aha"<<i<<"is a double count"<<endl;
-        }
-        if(i==4){
-                        cout<<"game over";
-            return 0;
-        }
+int main(){
+    ofstream timi("/Users/s20181102934/Desktop/timi.doc ");
+    if(timi.is_open()){
+        timi<<"David is Lv223";
+        timi.close();
+       
     }
     return 0;
 }
